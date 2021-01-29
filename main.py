@@ -54,13 +54,13 @@ def quitApp():
     root.destroy()
 
 def cut():
-    TextArea.event_generate(("<>"))
+    TextArea.event_generate("<<Cut>>")
 
 def copy():
-    TextArea.event_generate(("<>"))
+    TextArea.event_generate("<<Copy>>")
 
 def paste():
-    TextArea.event_generate(("<>"))
+    TextArea.event_generate("<<Paste>>")
 
 def about():
     showinfo("Notepad", "Notepad by Devesh")
